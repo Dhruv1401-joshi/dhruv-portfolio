@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/samosa-demo/',
+  base: '/dhruv-portfolio/',
   server: {
     port: 3000,
     open: false,
@@ -13,3 +13,4 @@ export default defineConfig({
     sourcemap: false
   }
 });
+
