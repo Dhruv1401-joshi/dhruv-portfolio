@@ -1,0 +1,16 @@
+{
+  "name": "Dhruv Joshi — Portfolio & Founder Profile",
+  "short_name": "Dhruv Joshi",
+  "description": "Dhruv Joshi is a Web Developer, AI Automation Builder, Software Developer and Co-Founder & CEO of Yrex.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06070a",
+  "theme_color": "#ff3366",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

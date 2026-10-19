@@ -1,0 +1,24 @@
+{
+  "name": "dhruv-joshi-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dhruv Joshi - Web Developer, AI Automation Specialist & Co-Founder & CEO of Yrex",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "keywords": [
+    "Dhruv Joshi",
+    "Web Developer",
+    "AI Automation",
+    "Software Builder",
+    "Yrex",
+    "Co-Founder & CEO"
+  ],
+  "author": "Dhruv Joshi",
+  "license": "MIT"
+}

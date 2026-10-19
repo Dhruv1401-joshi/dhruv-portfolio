@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-glow" cx="20%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1E1328" />
+      <stop offset="60%" stop-color="#090B10" />
+      <stop offset="100%" stop-color="#050608" />
+    </radialGradient>
+    <linearGradient id="neon-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="50%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-glow)" />
+
+  <!-- Grid overlay -->
+  <g opacity="0.12" stroke="#FFFFFF" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+  </g>
+
+  <!-- Glowing Orb -->
+  <circle cx="950" cy="180" r="180" fill="#FF3366" opacity="0.16" filter="blur(60px)"/>
+  <circle cx="350" cy="480" r="220" fill="#8B5CF6" opacity="0.12" filter="blur(70px)"/>
+
+  <!-- Border Frame -->
+  <rect x="30" y="30" width="1140" height="570" rx="24" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+  <!-- Status Pill -->
+  <g transform="translate(80, 85)">
+    <rect width="280" height="42" rx="21" fill="rgba(255, 51, 102, 0.12)" stroke="rgba(255, 51, 102, 0.4)" stroke-width="1"/>
+    <circle cx="22" cy="21" r="5" fill="#FF3366"/>
+    <text x="36" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#FF6B8B">CO-FOUNDER &amp; CEO — YREX</text>
+  </g>
+
+  <!-- Title / Name -->
+  <text x="80" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="76" font-weight="800" fill="url(#text-grad)" letter-spacing="-1">Dhruv Joshi</text>
+
+  <!-- Headline -->
+  <text x="80" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="700" fill="url(#neon-accent)" letter-spacing="0.5">Web Developer • AI Automation • Software Builder</text>
+
+  <!-- Description -->
+  <text x="80" y="345" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="400" fill="#94A3B8">Building modern websites, AI-powered automation systems,</text>
+  <text x="80" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="400" fill="#94A3B8">and practical digital systems that solve real business problems.</text>
+
+  <!-- Metrics Bar on right -->
+  <g transform="translate(740, 220)" filter="url(#card-shadow)">
+    <rect width="380" height="280" rx="20" fill="rgba(16, 20, 30, 0.85)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5"/>
+    
+    <text x="40" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="1.5">VERIFIED TRACK RECORD</text>
+    
+    <g transform="translate(40, 85)">
+      <text x="0" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">10+</text>
+      <text x="0" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8">Projects Built</text>
+      
+      <text x="170" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#FF3366">5+</text>
+      <text x="170" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8">Clients Closed</text>
+    </g>
+
+    <g transform="translate(40, 185)">
+      <text x="0" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#8B5CF6">1+</text>
+      <text x="0" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8">Internship</text>
+      
+      <text x="170" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">3+</text>
+      <text x="170" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8">Business Solutions</text>
+    </g>
+  </g>
+
+  <!-- Bottom Tagline -->
+  <g transform="translate(80, 520)">
+    <text x="0" y="0" font-family="monospace" font-size="16" fill="#64748B">&gt; dhruv.portfolio --official --founder-profile</text>
+  </g>
+</svg>
