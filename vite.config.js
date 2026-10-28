@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/dhruv-portfolio/',
+  base: './',
   server: {
     port: 3000,
     open: false,
